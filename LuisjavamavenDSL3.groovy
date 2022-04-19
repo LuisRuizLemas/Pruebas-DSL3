@@ -50,7 +50,7 @@ job('Job test Hola Mundo') {
 	description('Aplicacion Hola Mundo de Prueba')
 	steps {
 		shell('''
-			echo "Hola Mundo LuisRuiz24!!!"
+			echo "Hola Mundo LuisRuiz24, y bienvenido al curso de Jenkins!!!"
 		''')
 	}
 }
