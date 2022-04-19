@@ -1,7 +1,7 @@
 job('Java Luis App DSL 3') {
     description('Java Maven App con DSL para el curso de Jenkins')
     scm {
-        git('https://github.com/LuisRuizLemas/Pruebas-DSL3.git', 'master') { node ->
+        git('https://github.com/LuisRuizLemas/Pruebas-DSL3.git', 'main') { node ->
             node / gitConfigName('LuisRuizLemas')
             node / gitConfigEmail('luisgjenkins@gmail.com')
         }
