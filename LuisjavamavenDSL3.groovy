@@ -48,6 +48,10 @@ job('Java Luis App DSL 3') {
 
 job('Job test Hola Mundo') {
 	description('Aplicacion Hola Mundo de Prueba')
+	triggers {
+		cron('H/2 * * * *')
+    		githubPush()
+    	}
 	steps {
 		shell('''
 			echo "Hola Mundo LuisRuiz24, y bienvenido al curso de Jenkins!!!"
