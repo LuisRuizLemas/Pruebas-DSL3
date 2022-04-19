@@ -49,12 +49,12 @@ job('Java Luis App DSL 3') {
 job('Job test Hola Mundo') {
 	description('Aplicacion Hola Mundo de Prueba')
 	triggers {
-		cron('H/2 * * * *')
+		cron('H/6 * * * *')
     		githubPush()
     	}
 	steps {
 		shell('''
-			echo "Hola,  bienvenido al curso de Jenkins!!!"
+			echo "Hola, este es el curso de Jenkins.Buen fin de semestre"
 		''')
 	}
 }
