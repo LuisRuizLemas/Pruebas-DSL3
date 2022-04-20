@@ -54,7 +54,7 @@ job('Job test Hola Mundo') {
     	}
 	steps {
 		shell('''
-			echo "Hola, este es el curso de Jenkins.Buen fin de semestre"
+			echo "HHOLA, este es el curso de Jenkins.Buen fin de semestre"
 		''')
 	}
 }
